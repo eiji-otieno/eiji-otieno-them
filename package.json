@@ -1,4 +1,8 @@
 {
+  "publisher": "EijiOtieno1699",
+  "repository": {
+    "url": "https://github.com/eiji-otieno/eiji-otieno-theme"
+  },
   "name": "eiji-otieno-theme",
   "displayName": "eiji_otieno theme",
   "description": "A theme for night coders",
