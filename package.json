@@ -1,0 +1,21 @@
+{
+  "name": "eiji-otieno-theme",
+  "displayName": "eiji_otieno theme",
+  "description": "A theme for night coders",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "eiji-otieno-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eiji-otieno-theme-color-theme.json"
+      }
+    ]
+  }
+}
