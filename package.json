@@ -1,6 +1,7 @@
 {
   "publisher": "EijiOtieno1699",
   "repository": {
+    "type": "git",
     "url": "https://github.com/eiji-otieno/eiji-otieno-theme"
   },
   "name": "eiji-otieno-theme",
