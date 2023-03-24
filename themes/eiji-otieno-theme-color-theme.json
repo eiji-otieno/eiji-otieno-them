@@ -26,8 +26,8 @@
 				"string constant.other.placeholder",
 			],
 			"settings": {
-				"fontStyle": "italic ",
-				"foreground": "#008cff"
+				"fontStyle": "italic bold",
+				"foreground": "#3ea8ff"
 			}
 		},
 		{
@@ -168,7 +168,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#C792EA"
+				"foreground": "#5ef2ff"
 			}
 		},
 		{
@@ -215,7 +215,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#ff3535"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -233,7 +233,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#ffffffcc"
+				"foreground": "#ff7700"
 			}
 		},
 		{
@@ -242,7 +242,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#888888"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -256,12 +256,32 @@
 		},
 	],
 	"colors": {
+		"editorMarkerNavigation.background": "#141414",
+		"scrollbarSlider.background": "#202020",
+		"commandCenter.background": "#181818",
+		"commandCenter.border": "#252525",
+		"commandCenter.foreground": "#ffffff",
+		"checkbox.background": "#101010",
+		"editor.foldBackground": "#101010",
+		"editorInfo.background": "#141414",
+		"dropdown.listBackground": "#181818",
+		"dropdown.border": "#252525",
+		"dropdown.foreground": "#ffffff",
+		"input.background": "#101010",
+		"input.border": "#141414",
+		"welcomePage.background": "#141414",
+		"welcomePage.tileBackground": "#101010",
+		"welcomePage.progress.foreground": "#0062ff",
+		"welcomePage.tileHoverBackground": "#ffffff10",
+		"statusBar.noFolderBackground": "#101010",
+		"list.dropBackground": "#181818",
+		"button.background": "#0062ff",
 		"panel.background": "#141414",
 		"panel.border": "#101010",
 		"panelTitle.activeForeground": "#ffffff",
 		"panelTitle.inactiveForeground": "#ffffff30",
 		"panelTitle.activeBorder": "#ffffff00",
-		"icon.foreground": "#ffffff60",
+		"icon.foreground": "#ffffffaa",
 		"toolbar.hoverBackground": "#000000",
 		"activityBar.background": "#101010",
 		"activityBar.foreground": "#ffffffff",
@@ -272,6 +292,7 @@
 		"breadcrumb.activeSelectionForeground": "#ffffff",
 		"breadcrumb.focusForeground": "#ffffff90",
 		"breadcrumb.foreground": "#ffffff30",
+		"sideBarTitle.foreground": "#ffffff",
 		"sideBar.background": "#101010",
 		"sideBar.foreground": "#ffffff60",
 		"sideBarSectionHeader.background": "#101010",
@@ -288,9 +309,9 @@
 		"editor.background": "#141414",
 		"editor.foreground": "#ffffff",
 		"editorLineNumber.activeForeground": "#ffffff",
-		"editorLineNumber.foreground": "#ffffff20",
+		"editorLineNumber.foreground": "#ffffff25",
 		"editorCursor.foreground": "#ffe100",
-		"editorIndentGuide.background": "#ffffff10",
+		"editorIndentGuide.background": "#ffffff08",
 		"editor.lineHighlightBackground": "#101010",
 		"editor.hoverHighlightBackground": "#ffffff10",
 		"editorBracketHighlight.foreground1": "#00ff6e",
@@ -299,19 +320,26 @@
 		"editorLink.activeForeground": "#00fffb",
 		"editorWidget.background": "#181818",
 		"editorWidget.border": "#252525",
-		"editorWidget.foreground": "#ffffff80",
-		"editorSuggestWidget.focusHighlightForeground": "#ffffff",
+		"editorSuggestWidget.focusHighlightForeground": "#00fffb",
 		"editorSuggestWidget.selectedBackground": "#101010",
+		"editorSuggestWidget.highlightForeground": "#00fffb",
+		"editorSuggestWidget.foreground": "#ffffff95",
+		"editor.wordHighlightTextBackground": "#ffffff10",
+		"editor.selectionBackground": "#ffffff10",
 		"titleBar.activeBackground": "#101010",
 		"titleBar.activeForeground": "#ffffffaa",
 		"titleBar.inactiveBackground": "#101010",
 		"titleBar.inactiveForeground": "#ffffffaa",
 		"tab.activeBackground": "#141414",
-		"tab.activeForeground": "#ffffffee",
+		"tab.activeForeground": "#ffffff",
 		"tab.inactiveBackground": "#101010",
-		"tab.inactiveForeground": "#ffffff30",
-		"tab.hoverForeground": "#ffffff90",
+		"tab.inactiveForeground": "#ffffff60",
+		"tab.hoverForeground": "#ffffffaa",
 		"tab.border": "#ffffff00",
+		"contrastBorder": "#00000000",
+		"editorGroup.border": "#202020",
+		"debugToolBar.background": "#141414",
+		"dropdown.background": "#181818",
 		"statusBar.background": "#101010",
 		"statusBar.foreground": "#ffffff30",
 		"statusBar.debuggingBackground": "#ffffff",
@@ -360,6 +388,7 @@
 		"settings.checkboxBorder": "#202020",
 		"settings.textInputBorder": "#202020",
 		"settings.dropdownBorder": "#202020",
+		"input.foreground": "#ffffff",
 		"debugConsole.errorForeground": "#ff4141",
 		"debugConsole.infoForeground": "#ffffff",
 		"debugConsole.warningForeground": "#9000ff",
